@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Tbkapi::VERSION
   spec.authors       = ["刘梦晨"]
   spec.email         = ["mengchen.liu@corp.elong.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{淘宝客api ruby 调用}
+  spec.description   = %q{淘宝客api ruby 调用}
   spec.homepage      = ""
   spec.license       = "MIT"
 

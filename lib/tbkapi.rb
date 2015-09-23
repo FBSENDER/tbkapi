@@ -5,7 +5,7 @@ require "tbkapi/version"
 
 module Tbkapi
 
-  TBURI = "http://gw.api.taobao.com/router/rest/"
+  TBURI = "http://gw.api.taobao.com/router/rest"
   
   def system_params(method, api_key)
     {

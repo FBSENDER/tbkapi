@@ -9,7 +9,7 @@ module Tbkapi
         keyword: keyword,
         page_size: page_size
       }
-      params = sys_params("taobao.tbk.items.get",api_key).merge(action_params)
+      params = system_params("taobao.tbk.items.get",api_key).merge(action_params)
       my_sign = get_sign(params, secret).upcase
       HTTParty.get(TBURI, query: params.merge({sign: my_sign}))
     end
